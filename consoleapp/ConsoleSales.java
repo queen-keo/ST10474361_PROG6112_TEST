@@ -8,7 +8,7 @@ package com.mycompany.consoleapp;
  *
  * @author Student
  */
-public class ConsoleSales extends Console {
+public class ConsoleSales extends Console { // receives from 
 
     public ConsoleSales(String consoleType, String store, String totalSales) {
         super(consoleType, store, totalSales);
