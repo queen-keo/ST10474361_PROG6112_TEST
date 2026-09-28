@@ -12,8 +12,8 @@ public class Number1Electronics {
 
      public static void main(String[] args) {
 
-        // Rows = For Cities
-        // Columns = For PS5, Xbox, Switch
+        // Rows For the Cities
+        // Columns For PS5, Xbox, Switch
         int[][] sales = {
             {1000, 2000, 3000},   // Cape Town
             {2000, 3000, 4000},  // Port Elizabeth
@@ -23,10 +23,11 @@ public class Number1Electronics {
         String[] cities = {"Cape Town", "Port Elizabeth", "Pretoria"};
         String[] consoles = {"PS5", "Xbox", "Switch"};
 
-        // Display the sales
+        // This will display the sales
         System.out.println("GAMING CONSOLE REPORT");
         System.out.println("-----------------------------");
 
+          // using a loop to go through all the cities 
         for (int i = 0; i < sales.length; i++) {
             System.out.print(cities[i] + ": ");
 
