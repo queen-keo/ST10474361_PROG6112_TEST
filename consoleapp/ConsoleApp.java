@@ -15,11 +15,10 @@ public class ConsoleApp {
 
     public static void main(String[] args) {
 
-        ConsoleSales sales = new ConsoleSales(
-                "CONSOLE TYPE: PS5",
+        ConsoleSales sales = new ConsoleSales(  "CONSOLE TYPE: PS5",
                 "Store: Number 1 Electronics Store",
                 "TOTAL SALES: 500"
-        );
+  );
 
         sales.printReport();
     }
