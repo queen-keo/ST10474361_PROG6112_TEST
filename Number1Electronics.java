@@ -20,8 +20,8 @@ public class Number1Electronics {
             {1500, 1100, 1200}   // Pretoria
         };
 
-        String[] cities = {"Cape Town", "Port Elizabeth", "Pretoria"};
-        String[] consoles = {"PS5", "Xbox", "Switch"};
+        String[] cities = {"CAPE TOWN", "PORT ELIZABETH", "PRETORIA"};
+        String[] consoles = {"PS5", "XBOX", "SWITCH"};
 
         // This will display the sales
         System.out.println("GAMING CONSOLE REPORT");
