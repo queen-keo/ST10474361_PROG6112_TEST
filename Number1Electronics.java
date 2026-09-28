@@ -38,7 +38,7 @@ public class Number1Electronics {
             System.out.println();
         }
 
-        // Find the console with the most sales
+        // Finding the console with the most sales
         int highestSales = 0;
         String bestConsole = "";
 
